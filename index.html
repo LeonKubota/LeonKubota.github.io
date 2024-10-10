@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <link rel="stylesheet" href="alt.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- měnič vzhledu-->
+    <script>
+        function zmenaVzhledu() {
+            var vzhled = document.getElementsByTagName("link")[0];
+            if (vzhled.getAttribute("href") == "style.css") {
+                vzhled.setAttribute("href", "alt.css");
+            } else {
+                vzhled.setAttribute("href", "style.css");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="flex-container">
+        <div><a href="index.html">Nejlepší stránka světa</a></div>
+        <div>Tohle tlačítko nic nedělá</div>
+        <div>Další tlačítko co nic nedělá</div>  
+        <div>Dělá tohle tlačítko něco?</div>
+    </div>
+    
+    <h1 class="special">Leonova stránka</h1>
+    <h2>Stále Leonova stránka</h2>
+    <h3>Nic se nezměnilo, tahle stránka je stále Leonova</h3>
+    <h4>Už mě to nebaví</h4>
+    <h5>H5</h5>
+    <h6>kolik je těch nadpisů :&lpar;</h6>
+
+    <button onclick="zmenaVzhledu()">TLAČÍTKO KRÁSY</button>
+
+    <h1 class="special">Dřevěný text</h1>
+    <p class="bgimagewood">
+        V tomto článku použijeme HTML a CSS k nastavení obrázku na pozadí textu. 
+        K nastavení obrázku na pozadí textu se používá nějaká vlastnost CSS. 
+        Chcete-li přidat obrázek na pozadí textu pomocí HTML a CSS, vytvořte prvek kontejneru (např. div),
+        nastavte jeho pozadí na požadovaný obrázek pomocí CSS ('vlastnost background-image) a upravte vlastnosti textu.
+        (např. barva, velikost), aby byla zajištěna čitelnost.Použijte CSS positioning a z-index </p><p class="bgimagefire">k vrstvení textu p</p><p class="bgimagewood">řes obrázek. 
+        </p><p class="bgimagefire">Kromě toh</p><p class="bgimagewood">o můžete pou</p><p class="bgimagefire">
+        žít vlastnosti 'background-size' a 'background-position' k ovládání vzhledu obrázku v kontejneru. AAAAAAAAAAAAAAAA HOŘÍ!!!!!
+    </p>
+
+    <h1 class="special">Historie spalovacích motorů</h1>
+    <p id="p1">První zmínkou spalovacího motoru pochází z roku 1680, kdy dánský fyzik Christian Huygens navrhl spalovací motor poháněný střelným prachem. O 114 let později vyrobil Robert Street první spalovací motor, dle plánů vědce Johna Barbera, ale tento motor byl prakticky nepoužitelný. V roce 1858 vytvořil inženýr Jean Joseph Étinne Lenoir spalovací motor na svítiplyn, byl to vůbec první úspěšný motor a byl hojně užíván v průmyslu. Německý inženýr Nikolaus Otto zdokonalil Lenoirův motor a později v roce 1876 vynalezl čtyřdobý motor. V tuto dobu se stále nepoužíval benzín, který byl považován za bezcennou složku ropy. Ognjen Stratonović Stratonović ho však využil k pohonu svého motoru. Později v roce 1885 zdokonalil Gottlieb Daimler čtyřdobý motor přidáním karburátoru a opatřil jím automobil. První vznětový motor vyrobil Rudolf Diesel, ten byl mnohem účinnější než parní motory a tak se ujal pro těžký průmysl.</p>
+    <p>Spalovací motory se od dob Otty a Daimlera nepřestaly vyvíjet, byli zdokonaleny mnoha objevy jako je například turbodmychadly a elektronickým vstřikováním. Nově jsou prozkoumávány další paliva jako například vodík či amoniak s cílem snížení emisí.</p>
+    <p><b>Zdroj: Moje SOČ</b></p>
+
+    <h1 class="special">Odstavcovaný text</h1>
+    <p class="odstavce">Tepelné motory jsou nedílnou součástí moderního světa.
+         Jsou všudypřítomné, od sekaček a automobilů,  až po obrovské jaderné elektrárny a vesmírné rakety. 
+         Na tepelné motory narazíme na každém rohu, prakticky mnohem častěji. Je tedy důležité se o nich vzdělávat, 
+         abychom dokázali vyrábět lepší a účinnější motory, které budou šetrnější pro naši planetu.
+    </p>
+    <p class="odstavce">
+         Touto prací navazuji na můj stejnojmenný ročníkový projekt.
+         Po jeho dokončení jsem se rozhodl pokračovat do soutěže SOČ a vytvořit ještě lepší učební pomůcky a 
+         zdokonalit své schopnosti. Tepelné motory mi přijdou velmi zajímavé a výuka o nich mi přijde důležitá.
+    </p>
+    <p class="odstavce">
+         V první kapitole objasním obecné principy tepelných motorů a v následujících kapitolách popíši konkrétní druhy,
+         a to parní, spalovací a reaktivní. Proberu dějiny parních motorů a jejich důležitost pro průmyslovou revoluci, 
+         dále vysvětlím princip fungování parního stroje a parní turbíny a jejich využití v současnosti. 
+         V kapitole spalovacích motorů velmi stručně proberu historii, poté popíši fungování hlavních druhů spalovacích motorů, 
+         a to čtyřdobého zážehového, čtyřdobého vznětového a dvoudobého zážehového. Také se budu zabývat
+         pro výpočet účinnosti, výkonu a dalších. V následující kapitole rychle shrnu dějiny reaktivních motorů, 
+         dále vysvětlím zákon akce a reakce a popíši princip fungování proudových a raketových motorů. 
+         Vysvětlím rozdíly mezi proudovým a dvouproudovým motorem a také rozdíly mezi tuhým a kapalným raketovým motorem. 
+         Vysvětlím vzorce pro výpočet tahu, specifického impulsu a dalších důležitých hodnot.
+    </p>
+    <p class="odstavce">
+         Těžištěm této práce je praktická část. Vytvořím několik krátkých videí k podrobnějšímu vysvětlení tepelných motorů, 
+         které může učitel pustit v hodině nebo poslat žákům, aby si před testem oživili pojmy a fungování motorů. 
+         Tyto videa a animace které budou v nich obsaženy vytvořím s pomocí softwaru <i>Blender</i>, 
+         který používám již 5 let. V těchto videích velmi stručně proberu historii daného tepelného motoru a detailně vysvětlím jeho fungování, 
+         také popíši jeho součástky a využití. Dále vytvořím několik prezentací, 
+         stručnou a jednoduchou prezentaci určenou pro základní školy, 
+         která bude sloužit k seznámení dětí s tepelnými motory a několik informativních prezentací pro 2. 
+         ročník střední školy a gymnázií, které detailněji popíší tepelné motory paralelně s výukou ideálních plynů. 
+         Vytvořím také několik pracovních listů, které mohou učitelé zadat za domácí úkol či je použít jako písemku.
+    
+    </p>
+
+    <h1>Types of SKIBIDI TOILET</h1>
+    <ol>
+        <li><p>Normal skibidi toilet</p></li>
+        <li><p><b>Bold skibidi toilet</b></p></li>
+        <li><p><strong>Strong skibidi toilet</strong></p></li>
+        <li><p><i>Italic skibidi toilet</i></p></li>
+        <li><p><em>Emphasized skibidi toilet</em></p></li>
+        <li><p><mark>Marked skibidi toilet</mark></p></li>
+        <li><p><small>Small skibidi toilet</small></p></li>
+        <li><p><del>Deleted skibidi toilet</del></p></li>
+        <li><p><ins>Inserted skibidi toilet</ins></p></li>
+        <li><p><sub>Subscript skibidi toilet</sub></p></li>
+        <li><p><sup>Superscript skibidi toilet</sup></p></li>
+    </ol>
+
+    <h1 class="special"> Ottův cyklus</h1>
+    <p>Ottův cyklus je ideálním cyklem čtyřdobých zážehových motorů, které Nikolaus Otto vynalezl v roce 1874 (viz kapitola 4.1). 
+        Tento cyklus je vratný a opomíná mnoho skutečností, přesto je však důležitý pro porozumění termodynamických dějů ve čtyřdobém zážehovém motoru.
+        [<a href="https://www.grc.nasa.gov/www/k-12/BGP/ottoa.html">12</a>]</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/P-V_Otto_cycle.svg/1200px-P-V_Otto_cycle.svg.png" alt="Ottův cyklus" class="center">
+    <p>Na Obr. 2 je zobrazen p-V diagram Ottova cyklu, ten má následující čtyři děje.</p>
+    <ol>
+        <li>Sání <br> 
+            Probíhá izobaricky v bodech 1-2, píst jede směrem dolů a objem pracovního prostoru se zvětšuje.
+        </li>
+        <li>Komprese <br> 
+            Tato doba probíhá v bodech 2-3, píst stlačí vzduch a k tomu je třeba dodat práci.
+        </li>
+        <li>Expanze <br> 
+            V této době proběhne několik dějů, prvním z nich je izochorické spalovaní v bodech 3-4. Při tomto ději se velmi zvýší tlak, 
+            ten poté tlačí píst směrem dolů v bodech 4-5 a tím vykonává užitečnou práci. V posledním ději této doby se v bodech 5-6 se zbylé teplo rozptýlí do prostředí.
+        </li>
+        <li>Výfuk <br>
+            Probíhá izobaricky v bodech 2-1, na konci této doby je cyklus opět ve svém počátku.
+        </li>
+            
+    </ol>
+
+    <h1 id="rainbow">AI generated kočky galerie</h1>
+    <p>Kočičky jsou zachyceny v prostoru, jedna je polopůhledná protože ji nemám rád</p>
+    <div id="positioning">
+        <img class="kocka kocka1" src="https://storage.googleapis.com/pod_public/1300/146525.jpg" alt="Kočička s lightsaberem" width="200">
+        <img class="kocka kocka2" src="https://storage.googleapis.com/pod_public/1300/148743.jpg" alt="Kočička při západu slunce" width="200">
+        <img class="kocka kocka3" src="https://ih1.redbubble.net/image.4777429809.0751/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt = "Kočička s kytkama" width="200">
+        <img class="kocka kocka4" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e185be45-cfba-4222-9a07-48f34a769f28/dfv9h7o-1d08245a-af7a-4276-aca5-a90272ff346d.jpg/v1/fill/w_730,h_1095,q_70,strp/cute_cat_ai_art_by_stdananjaya_dfv9h7o-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkyMCIsInBhdGgiOiJcL2ZcL2UxODViZTQ1LWNmYmEtNDIyMi05YTA3LTQ4ZjM0YTc2OWYyOFwvZGZ2OWg3by0xZDA4MjQ1YS1hZjdhLTQyNzYtYWNhNS1hOTAyNzJmZjM0NmQuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.1EQEZYR7u8sFSafZlHKEBDwAAcPquAq6_aSyFKkaqm4" alt="Kočička s kožennou bundou a slunečními brýlemi" width="200">
+    </div>
+    <p>Zdroj: internet</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Zkratka</th>
+                <th>Vysvětlení</th>
+                <th>Jednotka</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>R</td>
+                <td>Charisma &lpar;Rizz&rpar;</td>
+                <td><i>R</i></td>
+            </tr>
+            <tr>
+                <td>L</td>
+                <td>Láska</td>
+                <td><i>L</i></td>
+            </tr>
+            <tr>
+                <td>l</td>
+                <td>Štěstí</td>
+                <td><i>l</i></td>
+            </tr>
+            <tr>
+                <td>S</td>
+                <td>Skibidova konstanta</td>
+                <td><i>S</i></td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Zlé živly</td>
+                <td>m</td>
+            </tr>
+            <tr>
+                <td>Gp</td>
+                <td>Gyatův potenciál</td>
+                <td>[-]</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="supersize">
+        R = <div class="frac">
+            1 - <div class="frac">
+                <span>S&lpar;L+l&rpar;<sup>2</sup></span>
+                <span class="symbol">/</span>
+                <span class="bottom">B</span>
+            </div>
+            <span class="symbol">/</span>
+            <span class="bottom">Gp</span>
+        </div>
+    </div>
+    <p id="fakelink">tohle je link na 100%</p>
+    <h3>Otec &lt;div&gt; a děti &lt;p&gt;</h3>
+    <div class="otec">
+        <p>Dítě 1</p>
+        <p>Dítě 2</p>
+        <p>Dítě 3</p>
+        <p>Dítě 4</p>
+        <p>Dítě 5</p>
+        <p>Dítě 6</p>
+        <p>Dítě 7</p>
+    </div>
+    <p>Otec &lt;div&gt; měl 7 dětí, které jsou selektnuté.</p>
+    <h3 class="special">Grid Layout</h3>
+    <div class="grid-container">
+        <div class="grid-item">Username</div>
+        <div class="grid-item">Email</div>
+        <div class="grid-item">Heslo</div>  
+        <div class="grid-item">Leon999</div>
+        <div class="grid-item">leon.kubota@student.gyarab.cz</div>
+        <div class="grid-item">●●●●●●●●●●●</div>  
+        <div class="grid-item">Gru</div>
+        <div class="grid-item">villan.gru@illumination.com</div>
+        <div class="grid-item">●●●●</div>
+        <div class="grid-item">Ton_Roosendaal</div>
+        <div class="grid-item">ton.roosendaal@blender.com</div>
+        <div class="grid-item">●●●●●●●●●●●●●●●●</div>  
+        <div class="grid-item">JA_Komensky_1592</div>
+        <div class="grid-item">skola.hrou@seznam.cz</div>
+        <div class="grid-item">●●●●●●●●●●●●●</div> 
+      </div>
+</body>
+</html>

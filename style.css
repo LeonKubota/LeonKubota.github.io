@@ -1,0 +1,270 @@
+body {
+    color: white;
+    padding-left: 40px;
+    background: rgb(136,205,255);
+    background: linear-gradient(90deg, rgba(136,205,255,1) 8%, rgba(59,99,170,1) 62%, rgba(0,52,92,1) 100%);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.bgimagewood{
+    display: inline;
+    background-image: url("https://img.freepik.com/free-vector/realistic-wood-texture-background_23-2149221129.jpg");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    /*tohle jsem našel na stránce https://www.geeksforgeeks.org/how-to-add-image-in-text-background-using-html-and-css/ */
+}
+
+.bgimagefire{
+    display: inline;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_5HzuPInF4tbnFB8ViRYacGhdfnz24PpEfg&s");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    /*tohle jsem našel na stránce https://www.geeksforgeeks.org/how-to-add-image-in-text-background-using-html-and-css/ */
+}
+
+div p {
+    color: brown;
+}
+
+#positioning{
+    position: relative;
+}
+
+.kocka {
+    position: absolute;
+}
+
+.kocka1 {
+    z-index: -1;
+}
+
+.kocka2 {
+    left: 30%;
+    z-index: 70;
+}
+
+.kocka3 {
+    opacity: 0.5;
+    left: 40%;
+    z-index: 80;
+}
+
+.kocka4 {
+    left: 50%;
+    z-index: 90;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.special {
+    color: red;
+    text-decoration:underline;
+    text-shadow: 4px 4px yellowgreen;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#rainbow {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+
+p {
+    line-height: 0.9;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    color: red;
+    border-style:dashed;
+}
+
+.odstavce {
+    text-indent: 5%;
+}
+
+#p1 {
+    transform: scale(1, -1);
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+    /*Staženo odněkud*/
+}
+  
+a:visited {
+    color: yellow;
+    background-color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+.frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+.frac span.bottom {
+    border-top: thin solid white;
+}
+.frac span.symbol {
+    display: none;
+}
+
+#fakelink {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#fakelink:hover {
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    z-index: 1000;
+    right: 0%;
+    margin-left: 60%;
+}
+
+.flex-container > div {
+    background-color: #000000;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_5HzuPInF4tbnFB8ViRYacGhdfnz24PpEfg&s");
+    width: 100px;
+    margin: 10px;
+    color: yellow;
+    text-align: center;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 480px) {
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+    
+    .flex-container > div {
+        background-color: #000000;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_5HzuPInF4tbnFB8ViRYacGhdfnz24PpEfg&s");
+        width: 50px;
+        margin: 5px;
+        color: yellow;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        padding: 10px;
+    }
+
+    .grid-item {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 5px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 40px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+    }
+    
+    .flex-container > div {
+        background-color: #000000;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_5HzuPInF4tbnFB8ViRYacGhdfnz24PpEfg&s");
+        width: 75px;
+        margin: 8px;
+        color: yellow;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        padding: 8px;
+    }
+    
+    .grid-item {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+}
